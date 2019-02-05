@@ -1,0 +1,83 @@
+.language-nav {
+    position: absolute;
+    top: -13px;
+    left: calc(50% - (177.78px/2));
+    background: white;
+    border: 1px solid $light-gray;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.language-nav a {
+    margin: 0 5px;
+    text-transform: uppercase;
+    font-family: $sans-serif;
+    font-size: 10px;
+    color: $dark-gray;
+    text-decoration: none;
+}
+
+.language-nav a:hover {
+    text-decoration: underline;
+}
+
+.language-nav ul {
+    display: flex;
+}
+
+.logo {
+    max-width: 400px;
+    margin-top: 10px;
+
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    // flex-direction: column;
+    padding: 0 0 10px 0;
+    align-items: center;
+    border-bottom: 1px solid $light-gray;
+    font-family: $sans-serif;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar li {
+    margin-left: 10px;
+    border-right: 1px solid $light-gray;
+}
+
+.sidebar button {
+    background: none;
+    padding: 0px;
+    color: #000;
+    font-weight: normal;
+    border: none;
+}
+
+
+.sidebar button:hover {
+    background: rgba(181, 181, 181, 0.372);
+}
+
+.sidebar button:last-child:hover {
+    text-decoration: underline;
+}
+
+
+.sidebar a,
+.sidebar button,
+.sidebar time {
+    margin-right: 10px;
+}
+
+.sidebar i {
+    margin-right: 5px;
+}
+
+.sidebar strong {
+    color: green;
+}
